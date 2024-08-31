@@ -31,4 +31,13 @@ tpl = (0,-1)
 lst = [5,12]
 dct = {'class': 'V', 'section': 'A'}
 
-print(("Type of is" (type(intg)) ))
+print("type of 1452 is " , type(intg))
+print("type of 11.23 is ",type(flot))
+print("type of (1+2j) is ",type(cmplx))
+print("type of booln is ",type(booln))
+print("type of 'python' is ",type(strng))
+print("type of (0,-1) is ",type(tpl))
+print("type of [5,12] is ",type(lst))
+print("type of {'class': 'V', 'section': 'A'} is ",type(dct))
+
+#print(type(intg))
