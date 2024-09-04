@@ -1,0 +1,101 @@
+1.) compiler v/s intreputer
+
+compiler :-translate code before the program runs
+	    it is faster then intreputer
+	(high-level programming language into machine code)
+	
+intreputer :- translate code line-by-line as the code runs (python)
+		it is slower then complier
+	(high-level programming language into machine code)
+
+2.) what is cloud ?
+ans :- cloud is a physical setup.
+       lotup(many akeres) sapce require for cloud setup
+       laptop,ram,disk space,multi processor etc ..part of cloud physical setup
+       cloud is one type of virtual space
+       ex:- my some store data in google drive and 
+	    google drive need google data store for data store in virtual space.
+	cloud name:
+		   aws >>>> amazon
+		   google drive >>>>> google
+	           asure >>> microsoft
+		   one drive.....
+
+3.) what is diagnostics and predictive ?
+ans:- diagnostic analysis:- this type data collection is past and present data.
+			    this type data is used for what is current sutivation now.
+    ex:- doctor to patient says some information reagarding his body.
+	what is problem in your body?
+	
+      predictiv analysis:- this type data collect from diagnostics analysis and
+                          after predict what is possbility in future using algoridham...
+   ex:- a company past data is collect after predict 
+		how many growth of compeny in future?
+		how many sales growth of compeny in future?
+		which type product is treanding in future?
+
+4.) da v/s ds
+
+data analysist:-
+
+data scientist:-
+
+5.) what is insight?
+ans:-
+
+6.)what is PEMDAS RULE?
+  P = PERENTHISIS(OUTER PERENTHSIS BEFORE SOLVE INNER PERENTHSIS) 
+  E = EXPONTIONAL
+  M = MULITIPLICATION (LEFT TO RIGHT)
+  D = DIVISION (LEFT TO RIGHT)
+  A = ADDITION(LEFT TO RIGHT)
+  S = SUBTRACTION(LEFT TO RIGHT)
+		
+7.) DESCRIBE VARIABLE RULES.
+ans:- variable start with (a-z) characteter is valid
+      variable start with _ (underscore) is valid
+      
+      variable start with number is not valid >>>>> 12ravi
+      variable start with space is not valid >>>>> ra vi
+      variable start with special symbol is not valid >>>>> $ravi ,@ravi
+
+8.)data types
+   int:number without decimal .... 12,-23,0
+   float : number with decimal ..... -23.32,44.44
+   boolean : true/false;yes/no;on/off ..... bool
+   string : 1 element can store multiple character ..... 
+            ravi = "12"
+	    x = 'mr'
+	    y = '''
+                  hello,
+			MY NAME IS xexagon
+		'''
+   list : store all datatype,ordered/indexed,mutable
+  	    list12 = [12,34,'ravi',45.43]
+   
+   tuple : store all datatype,ordered/indexed,immutable
+	    tuple12 = (12,34.43,'mr')
+
+   set : store all datatype,unordered,mutable
+	    set12 = {12,32.43,"m1221m"}
+
+   dictonary : store all datatype,unordered,mutable,
+		items,keys,values >>>>>> {key:value}
+	    dict12 = {12:34,'rollno' : 21 , "name" : "ravi" , -2.2 : 34}
+
+9) indexing and slicing
+
+   positive indexing : start with first element '0' to 'n+1'
+   negative indexing : last element start with "-1"
+ 
+10.) what is identifier ?
+ans:- Python Identifier is the name we give to identify a variable, function, class, module or other object.
+      That means whenever we want to give an entity a name, that's called identifier. 
+      A python identifier is a name given to various entities.
+      like variables, functions, and classes.
+
+11.) what is difference between function and method???
+ans:-
+
+12.) what is difference between (=) and (==) ????
+ans:- 
