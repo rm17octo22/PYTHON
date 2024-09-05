@@ -36,12 +36,16 @@ ans:- diagnostic analysis:- this type data collection is past and present data.
 
 4.) da v/s ds
 
-data analysist:-
+data analysist:- data anlysis role in industry is data stored as human readeble format like excel,...
+		 diagnostic anylisys in use for data anylisist. 
 
-data scientist:-
+data scientist:- data scientist role in industry is recive data from data anaylisys and predict the future according to algoridham and
+		 convert data into human readable form like excel,charts,pattern,etc .....
+		pridictive anylysis in use for data scientist.
 
 5.) what is insight?
-ans:-
+ans:- An insight refers to a deep understanding derived from analyzing data. It involves uncovering patterns, trends,
+      or relationships that can inform decision-making, provide strategic direction, or solve specific problems within an organisation.
 
 6.)what is PEMDAS RULE?
   P = PERENTHISIS(OUTER PERENTHSIS BEFORE SOLVE INNER PERENTHSIS) 
@@ -126,4 +130,4 @@ ans:-  relational :- data sciense(ds) and data anylysis(da) is mostly work with 
 		  :- mongodb preffered for this environment
 		  :- format >>>> like dictionary,json format {:}
 
-14.)		   
+14.)    
