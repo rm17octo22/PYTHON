@@ -52,17 +52,31 @@ ans:-
   S = SUBTRACTION(LEFT TO RIGHT)
 		
 7.) DESCRIBE VARIABLE RULES.
-ans:- variable start with (a-z) characteter is valid
-      variable start with _ (underscore) is valid
+ans:- variable start with (a-z) characteter is valid >>>>> ravi12 , ra_vi , RAVI 
+      variable start with _ (underscore) is valid    >>>>> _RAVI12 ,ra_vi12
       
       variable start with number is not valid >>>>> 12ravi
       variable start with space is not valid >>>>> ra vi
       variable start with special symbol is not valid >>>>> $ravi ,@ravi
 
-8.)data types
+8.)data types-------------------------------------
+	|					  |
+	|					  |
+    premitive datatypes			 nonpremitive datatypes
+	|					  |
+	|					  |
+     integer(int)			    string(str)
+      float				        list
+    boolean (bool)				tuple
+						set
+					  dictionary(dict)
+
    int:number without decimal .... 12,-23,0
+
    float : number with decimal ..... -23.32,44.44
+
    boolean : true/false;yes/no;on/off ..... bool
+
    string : 1 element can store multiple character ..... 
             ravi = "12"
 	    x = 'mr'
@@ -80,7 +94,9 @@ ans:- variable start with (a-z) characteter is valid
 	    set12 = {12,32.43,"m1221m"}
 
    dictonary : store all datatype,unordered,mutable,
-		items,keys,values >>>>>> {key:value}
+		items,keys,values >>>>>> 
+		{key:value} >>>>>> 1 element in dictionary
+		{key:value,key:value} >>>>>>> 2 element in dictionary
 	    dict12 = {12:34,'rollno' : 21 , "name" : "ravi" , -2.2 : 34}
 
 9) indexing and slicing
@@ -98,4 +114,16 @@ ans:- Python Identifier is the name we give to identify a variable, function, cl
 ans:-
 
 12.) what is difference between (=) and (==) ????
-ans:- 
+ans:- = is a assignment operator.its use in python is assign value store in variable
+      == is a comparison operator. its use in python compare of two varibale and it will give output is bool (True/False)
+
+13.) what is mongodb?
+ans:-  relational :- data sciense(ds) and data anylysis(da) is mostly work with this environment
+		  :- SQL preffered for this environment
+		  :- format >>>> like excel .... raw,column
+
+   non-relational :- web devloper is mostly work with this environment
+		  :- mongodb preffered for this environment
+		  :- format >>>> like dictionary,json format {:}
+
+14.)		   
