@@ -88,25 +88,26 @@ ans:- variable start with (a-z) characteter is valid >>>>> ravi12 , ra_vi , RAVI
                   hello,
 			MY NAME IS xexagon
 		'''
-   list : store all datatype,ordered/indexed,mutable
+   list : store all datatype,ordered/indexed,mutable,repeated
   	    list12 = [12,34,'ravi',45.43]
    
-   tuple : store all datatype,ordered/indexed,immutable
+   tuple : store all datatype,ordered/indexed,immutable,repeated
 	    tuple12 = (12,34.43,'mr')
 
-   set : store all datatype,unordered,mutable
+   set : store all datatype,unordered,mutable, not reapaeated,not indexing
 	    set12 = {12,32.43,"m1221m"}
 
-   dictonary : store all datatype,unordered,mutable,
+   dictonary : store all datatype,unordered,mutable, keys >>> immutable (expect : list,set,dict ) ,not keys repeated ,not indexing 5
 		items,keys,values >>>>>> 
 		{key:value} >>>>>> 1 element in dictionary
 		{key:value,key:value} >>>>>>> 2 element in dictionary
 	    dict12 = {12:34,'rollno' : 21 , "name" : "ravi" , -2.2 : 34}
 
-9) indexing and slicing
-
-   positive indexing : start with first element '0' to 'n+1'
-   negative indexing : last element start with "-1"
+9)   difference between len(),range(),indexing,slicing.
+ans :-  len () function  >>>>>>>>>>> count no.of elements in variable.....start count element to 1
+	range(strat,stop,step) :- generate a seqence of number ...... ex.) range(5) .... o/p >> 0,1,2,3,4.... start with 0.
+       positive indexing : start with first element '0' to 'n+1'........i = start , j = stop (j+1) , k = step
+       negative indexing : last element start with "-1,-2,....so on ...... i = start , j = stop (j-1) , k = step
  
 10.) what is identifier ?
 ans:- Python Identifier is the name we give to identify a variable, function, class, module or other object.
@@ -130,4 +131,11 @@ ans:-  relational :- data sciense(ds) and data anylysis(da) is mostly work with 
 		  :- mongodb preffered for this environment
 		  :- format >>>> like dictionary,json format {:}
 
-14.)    
+14.)  what is buffer memory ???
+ans:- 
+
+15.) what means of case sensitivie in python???
+ans:- case sensetive means all capitel letter and small letter are different .
+       ex:- Ravi =12 & ravi = 12 >>>>> both varible consider as a different variable .
+
+16.) 
