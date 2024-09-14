@@ -1,0 +1,76 @@
+1.) Data Types: Unit of Information
+
+Int (Whole numbers) : -infinity…-2,-1,0, 1,2,3…Infinity
+
+Float(Decimal Numbers) : -2.34, -5.4, -1.2, 6.7, 8.9
+
+String(text) : “AlmaBetter”, “Data Science”, etc 
+
+Boolean: True, False
+
+List, Tuple, Dictionary, Set : These are specific to Python | Will be discussed in further classes
+
+
+2.)  Operators: action on data
+
+ Arithmetic Operators : `+`, `-`, `*`, `/`, `%`, `**`, `//` 
+
+Important : % (Modulo Operator : Remainder), // (Floor Division Operator : Quotient)
+
+Comparison Operators : > , < , ==, ! =, > =, < =
+
+Assignment Operators : =
+
+
+3.)  Variables: Space where data is stored.
+
+Naming and assigning values (x = 5, name = "John").
+
+Important: Variable is like a empty container in which value is stored.
+
+Example: x = 5, it means value 5 is stored in variable x
+
+Here, some rules to naming a variable -
+
+- Variables names must start with a letter or an underscore like _ product , product_
+- The remainder of your variable name may consist of letters, numbers and underscores
+- spacy1, pyThon,machine_learning are some valid variable names
+- Names are case sensitive. (It means XY, xY, Xy, xy : all 4 are different variables) :Captial and small is considered different
+- It's a best practice to create a variable that should be coherent with the context you are working on. Let's say you are working with fruit data; the variable name should be "fruit" or "fruit_mango." | Make it as meaningful as you can.
+- Names cannot begin with a number. Python will throw an error when you try to do so
+- Names can not contain spaces, use _ (underscore) instead
+- Names can not contain any of these symbols:                 :'",<>/?|\!@#%^&*~-+
+- It is considered best practice that names are lowercase with underscores- ex: (total_ , no_of_apples, etc)
+- There are some restricted keywords in python only reserved for python, you cannot use it for variables,
+
+
+4.) Functions: Set of Instructions written in Input & Output format**
+
+Example -
+
+print() —> It is function which takes input and displays the values in it.
+
+x = 5
+
+print(x) —→ Displays the value of stored in x
+
+type(x) —> Displays the data type of the value stored in x
+
+
+
+5.) Syntax & Rules : Grammar of writing python language
+
+Over the time we will learn the syntax of writing python code.
+
+There are certain rules that have to followed.
+
+Example - 
+
+P  - Parenthesis (bracket)
+
+E - Exponential (**) Power
+
+MD - Multiplication, Division, Modulo, Floor Division
+
+AS - Addition, Subtraction
+
