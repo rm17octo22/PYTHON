@@ -1,0 +1,58 @@
+1.) What is the role of DA/DS in industry?
+
+   Let’s take an example of Journey of the user who wants to buy Tshirt online - 
+
+- User go to Amazon - Signup/Login
+- Search the product
+- Find the right product | Apply filter of price/ colour etc
+- Add to cart
+- Payment
+- Product reaches the nearest delivery center
+- Delivered
+
+**At each step is data is generated and stored for further usage**
+
+**In this process -** 
+
+- Software Engineers - Will develop the application(Mobile / Web) to facilitate the process
+
+- Data Engineers - Will ensure data generated at each step is stored in right format or structure
+
+- Data Analyst/ Scientist - Will derive the insights using the data stored
+
+2.) What is insight?
+
+     An insight refers to a deep understanding derived from analyzing data.
+     It involves uncovering patterns, trends, or relationships that can inform decision-making, provide strategic direction, or solve specific problems within an organisation.
+
+Ex - 
+
+1. **Using the signup/login Data** - Analyst can derive what time user is active for the notification
+2. **Using the search of product -** Analyst can derive what is the most popular product(it can be recommended to other users), which product is not available but is searched the most (It can add to the amazon platform)
+3. **Scroll pattern of user to find the right product -** Analyst ****can derive the efficiency of product recommendation by looking at time taken to find the product (Improve the recommendation)
+
+
+3.) Data Analyst vs Data Scientist
+
+  Data Analyst
+
+- Diagnostic Analysis
+- Using data analyses the present scenario
+- Ex - Why have sales gone down this year?
+- Analyst will look  - 1. Product sold this year vs past year 
+                       2. Discount given this year vs past year  Data Analyst
+Data Scientist
+
+- Predictive Analysis
+- Using data predicts the information
+- Ex - Predict the Demand of product next year
+- Scientist will analyse the demand first then apply concepts of ML algorithms to predict. 
+
+4.) da/ds roles in industry :
+
+	1. Market Analyst - Data analyst working for Marketing team (analysing the campaigns, notifications to be sent etc)
+	2. Product Analyst - Data analyst working with product team to enhance the experience of user.
+	3. Business Analyst - Analyst working with Business team to analyse which users are expected to convert, markets in which business can expand, etc.
+	4. Risk Analyst - Analyst working with Finance team to analyse the frauds, revenue , etc.
+	5. AI engineer - Data Scientist working on Deep Learning Algorithms
+	6. ML Engineer - Data Scientist working on deployment of ML Models on cloud. making application available for users
