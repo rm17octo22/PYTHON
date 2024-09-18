@@ -1,5 +1,7 @@
 # datatypes
-# .....  int,float,str,list,tuple,dictionary,set .....
+# .....  int,float,boolean,str,list,tuple,dictionary,set .....
+# premitive datatypes :- int ,float ,boolean
+# non-premitive data-types :- str, list ,tuple, dictionary, set
 
 #int
 integer = 123
@@ -13,6 +15,15 @@ print("float :",float12)
 print(type(float12))
 print('')
 
+#boolean
+#return :- True / False
+# yes/no , on/off , yes/no , 1/0 
+boolean12 = True
+boolean1212 = False
+print(boolean12)
+print(boolean1212)
+print(type(boolean12)
+      
 #str
 #immutable
 #ordered/indexed
@@ -29,8 +40,10 @@ print("""
 print("")
 
 #list
-#immutable
+#mutable
 #ordered/indexed
+#repeated allowed
+# accept all dat-type
 my_list = ([1,23.4,'ravi'])
 print("list :",my_list)
 print(type(my_list))
@@ -46,6 +59,8 @@ print("")
 #tuple
 #immutable
 #ordered/indexed
+#repeated allowed
+#accept all data-types
 my_tuple = ((12,23.34,"monika"))
 print("tuple :",my_tuple)
 print(type(my_tuple))
@@ -54,8 +69,10 @@ print("")
 
 #dictionary
 #mutable
+#indexing not allowed
 #unordered
-#doesnot duplicate keys
+#keys .... becuse keys are immutable , not repreated allolwed , not allowed datatrypes is :- list ,set,dict
+#values ..... beacuse values are mutable , repeated allowed , allowed all data-types 
 dictionary = {1:2,"rollno" : 23.32,"fruits":"banana",1:2}
 print("dictionary : ",dictionary)
 print(type(dictionary))
@@ -72,8 +89,10 @@ print("")
 
 #set
 #mutable
+#indexing not allowed
 #unordered
 #doesnot allow duplicate members
+#not alowed datatypes id :- set,dict,list
 set1722 = {12,23.34,"monika"}
 print("set :",set1722)
 print(type(set1722))
