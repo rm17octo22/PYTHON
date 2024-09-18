@@ -1,0 +1,200 @@
+#################### what is a function??? ####################
+
+A **function** is a block of code to carry out a specific task, will contain its scope and is called by name. 
+
+Example:
+
+ len([2,3,4,5,6]) --> 5: returns count of elements.
+ sum([2,3,4,5,6]) --> 20: returns sum of all the elements.
+
+
+################## what is a method??? #####################
+
+A **method** in Python is similar to a function, except it is associated with objects/classes. Methods in Python are very similar to functions except for two significant differences.
+
+- The method is implicitly used for an object for which it is called.
+- The method is accessible to data that is contained within the class.
+
+example: 
+
+ 'hello world'.count('o') --> 2: count the number of 'o's.
+
+
+$$$$$$$$$$$$$$$$$$$$$$$ Typecasting in Python $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+############## 1. Integer Conversion (`int()`) ##########################
+
+
+# String to Integer
+string_num = "123"
+int_num = int(string_num)
+print(int_num)  # Output: 123
+# Note if any character is present like '123a' --> Then conversion will throw an error.
+
+# Float to Integer
+float_num = 45.67
+int_num = int(float_num)
+print(int_num)  # Output: 45
+
+# Boolean to Integer
+bool_value = True
+int_bool = int(bool_value)
+print(int_bool)  # Output: 1
+
+
+######################## 2.) Float Conversion (float()) ################
+
+# String to Float
+string_num = "123.45"
+float_num = float(string_num)
+print(float_num)  # Output: 123.45
+
+# Integer to Float
+int_num = 123
+float_num = float(int_num)
+print(float_num)  # Output: 123.0
+
+# Boolean to Float
+bool_value = True
+float_bool = float(bool_value)
+print(float_bool)  # Output: 1.0
+
+
+################ 3.) String Conversion (str()) ###############
+
+# Integer to String
+int_num = 456
+str_num = str(int_num)
+print(str_num)  # Output: "456"
+
+# Float to String
+float_num = 78.90
+str_float = str(float_num)
+print(str_float)  # Output: "78.9"
+
+# Boolean to String
+bool_value = False
+str_bool = str(bool_value)
+print(str_bool)  # Output: "False"
+
+# list to String
+list_value = [1,2,3,4]
+str_list = str(list_value)
+print(str_list)  # Output: "[1,2,3,4]"
+
+# Same applied on tuple,set
+
+
+#################### 4.) Boolean Conversion (bool()) ########################
+
+
+# Integer to Boolean
+int_num = 0
+bool_num = bool(int_num)
+print(bool_num)  # Output: False
+
+# Float to Boolean
+float_num = 0.0
+bool_float = bool(float_num)
+print(bool_float)  # Output: False
+
+# String to Boolean
+str_value = "True"
+bool_str = bool(str_value)
+print(bool_str)  # Output: True
+
+
+########### 5.) List and Tuple Conversion (list() and tuple())  ##############
+
+
+# String to List
+string_word = "Python"
+list_word = list(string_word)
+print(list_word)  # Output: ['P', 'y', 't', 'h', 'o', 'n']
+
+# Tuple to List
+tuple_numbers = (1, 2, 3)
+list_numbers = list(tuple_numbers)
+print(list_numbers)  # Output: [1, 2, 3]
+
+# List to Tuple
+list_colors = ['Red', 'Green', 'Blue']
+tuple_colors = tuple(list_colors)
+print(tuple_colors)  # Output: ('Red', 'Green', 'Blue')
+
+
+
+######################### 6.) Set Conversion (set())  ##############################
+
+
+
+# List to Set
+list_numbers = [1, 2, 2, 3, 4, 4, 5]
+set_numbers = set(list_numbers)
+print(set_numbers)  # Output: {1, 2, 3, 4, 5}
+
+# String to Set
+string_characters = "abracadabra"
+set_characters = set(string_characters)
+print(set_characters)  # Output: {'a', 'r', 'b', 'c', 'd'}
+
+
+########################### 7.) Dictionary to List (list())   #############################
+
+
+# Dictionary to List of Keys
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+list_keys = list(my_dict)
+print(list_keys)  # Output: ['a', 'b', 'c']
+
+# Dictionary to List of Values
+list_values = list(my_dict.values())
+print(list_values)  # Output: [1, 2, 3]
+
+# Dictionary to List of (Key, Value) Pairs (as tuples)
+list_items = list(my_dict.items())
+print(list_items)  # Output: [('a', 1), ('b', 2), ('c', 3)]
+
+
+
+#########################  8.) List of Tuples to Dictionary (dict())#############################
+
+
+# List of Tuples to Dictionary
+list_items = [('a', 1), ('b', 2), ('c', 3)]
+my_dict = dict(list_items)
+print(my_dict)  # Output: {'a': 1, 'b': 2, 'c': 3}
+
+
+#########################  9.) List of Lists to Dictionary (dict()) ##############################
+
+
+# List of Lists (each containing key-value pairs) to Dictionary
+list_of_lists = [['a', 1], ['b', 2], ['c', 3]]
+my_dict = dict(list_of_lists)
+print(my_dict)  # Output: {'a': 1, 'b': 2, 'c': 3}
+
+
+
+########################## 10.) Dictionary Keys to List (list()) ###################################
+
+
+# Dictionary Keys to List
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+list_keys = list(my_dict.keys())
+print(list_keys)  # Output: ['a', 'b', 'c']
+
+
+########################## 11.) Dictionary Values to List (list())  ###############################
+
+
+# Dictionary Values to List
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+list_values = list(my_dict.values())
+print(list_values)  # Output: [1, 2, 3]
+
+
+note :-  **Remember that not all conversions are possible, 
+          and you should be cautious about the potential loss of information,
+          especially when converting between numerical types.**
