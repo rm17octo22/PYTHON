@@ -138,4 +138,13 @@ ans:-
 ans:- case sensetive means all capitel letter and small letter are different .
        ex:- Ravi =12 & ravi = 12 >>>>> both varible consider as a different variable .
 
-16.) 
+16.) what is difference between input() and eval() ???
+ans:- 
+
+	x = input("enter a number")
+	print(type(x))
+
+	print()
+	x12 = eval(input("enter a number"))
+	print(type(x12))
+
